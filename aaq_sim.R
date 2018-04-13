@@ -4,9 +4,6 @@ aaq_sim <- function(seed = 1234) {
 
   set.seed(seed)
   library(dplyr)
-  library(tidyr)
-  library(ggplot2)
-  
   
   # sample size
   N <- 25
