@@ -1,0 +1,754 @@
+\documentclass[11pt,]{article}
+\usepackage[margin=1in]{geometry}
+\newcommand*{\authorfont}{\fontfamily{phv}\selectfont}
+\usepackage[]{mathpazo}
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}} 
+\usepackage{longtable,booktabs}
+
+\usepackage{parskip}
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+
+\titleformat*{\subsubsection}{\normalsize\itshape}
+
+\usepackage{titling}
+\setlength{\droptitle}{-.25cm}
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+%\setlength{\emergencystretch}{3em}  % prevent overfull lines 
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{lastpage}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0.0pt} 
+\lhead{}
+\chead{}
+\rhead{\footnotesize SOC W 506 F: Social Welfare Research \& Evaluation (Advanced Analytical
+Case Management) -- Spring 2018}
+\lfoot{}
+\cfoot{\small \thepage/\pageref*{LastPage}}
+\rfoot{}
+
+\fancypagestyle{firststyle}
+{
+\renewcommand{\headrulewidth}{0pt}%
+   \fancyhf{}
+   \fancyfoot[C]{\small \thepage/\pageref*{LastPage}}
+}
+
+%\def\labelitemi{--}
+%\usepackage{enumitem}
+%\setitemize[0]{leftmargin=25pt}
+%\setenumerate[0]{leftmargin=25pt}
+
+
+
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{%
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+}
+\@ifpackageloaded{color}{
+    \PassOptionsToPackage{usenames,dvipsnames}{color}
+}{%
+    \usepackage[usenames,dvipsnames]{color}
+}
+\makeatother
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={ ()},
+             pdfkeywords = {},  
+            pdftitle={SOC W 506 F: Social Welfare Research \& Evaluation (Advanced Analytical
+Case Management)},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+
+
+\setcounter{secnumdepth}{0}
+
+
+
+
+
+\usepackage{setspace}
+
+\title{SOC W 506 F: Social Welfare Research \& Evaluation (Advanced Analytical
+Case Management)}
+\author{Joe Mienko}
+\date{Spring 2018}
+
+
+\begin{document}  
+
+		\maketitle
+		
+	
+		\thispagestyle{firststyle}
+
+%	\thispagestyle{empty}
+
+
+	\noindent \begin{tabular*}{\textwidth}{ @{\extracolsep{\fill}} lr @{\extracolsep{\fill}}}
+
+
+E-mail: \texttt{\href{mailto:mienko+505@uw.edu}{\nolinkurl{mienko+505@uw.edu}}} & Web: \href{http://Canvas}{\tt Canvas}\\
+Office Hours: Thursdays, 1-3 (or by appointment)  &  Class Hours: F 830-1120\\
+Office: 18th Floor, UW Tower  & Class Room: SWS 036\\
+	&  \\
+	\hline
+	\end{tabular*}
+	
+\vspace{2mm}
+	
+
+
+\section{Course Description}\label{course-description}
+
+This course is an overview of research process/methods in social work,
+with focus on consuming and performing practice-related research and
+evaluating one's own practice. Emphasis on critical understanding of
+empirical literature, development of useful and appropriate questions
+about social work practice, and strategies and techniques for doing
+research and applying findings to practice.
+
+This is a pilot course which has been modified from the traditional
+research methods sequence in two important ways: 1. The course is
+designed to be focused on the application of analytical tools to direct
+social work practice, and 2. The course is strongly oriented toward
+child welfare social work.
+
+Given the pilot nature of the course, the specific schedule and
+assignments outlined in this syllabus are subject to change.
+
+This course is designed to be taken as the second-half of a two-quarter
+sequence beginning with SOC W 505 (Analytical Case Management).
+
+\section{Course Objectives}\label{course-objectives}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  To introduce students to a variety of research methodologies,
+  epistemologies, and ethical considerations that accompany research
+  endeavors. This will include exposure to qualitative and quantitative
+  methodologies and human participant considerations.
+\item
+  To learn to critically assess social science research from ethical,
+  multicultural, and social justice perspectives.
+\item
+  To gain a balanced and informed perspective about varying types of
+  research methodologies and epistemological traditions.
+\item
+  To identify the potential limitations of research methods and examine
+  critically conclusions drawn from data in the practice setting and
+  from the research literature.
+\item
+  To gain experience in the direct application of research skills to
+  define, measure, and conceptualize problems of relevance to social
+  work practice.
+\end{enumerate}
+
+\section{Required Readings}\label{required-readings}
+
+To be provided in hard copy or digital form as required.
+
+\section{Targeted Competencies and Related Practice
+Behaviors}\label{targeted-competencies-and-related-practice-behaviors}
+
+This course targets the following Council on Social Work Accreditation
+(CSWE) competencies and related practice behaviors:
+
+\subsection{Competencies}\label{competencies}
+
+\subsubsection{Competency \#2: Apply social work ethical principles to
+guide professional
+practice.}\label{competency-2-apply-social-work-ethical-principles-to-guide-professional-practice.}
+
+\begin{itemize}
+\tightlist
+\item
+  Make ethical decisions, in practice and in research, by critically
+  applying the ethical standards of the NASW Code of Ethics and other
+  relevant codes of ethics.
+\end{itemize}
+
+\subsubsection{Competency \#3: Apply critical thinking to inform and
+communicate professional
+judgments.}\label{competency-3-apply-critical-thinking-to-inform-and-communicate-professional-judgments.}
+
+\begin{itemize}
+\tightlist
+\item
+  Use critical thinking to distinguish, evaluate, and integrate multiple
+  sources of knowledge, including research-based knowledge, practice
+  wisdom, and client/constituent experience.
+\item
+  Critically analyze models of assessment, especially in relation to
+  their cultural relevance and applicability and their promotion of
+  social justice.
+\item
+  Critically analyze models of prevention, especially in relation to
+  their cultural relevance and applicability and their promotion of
+  social justice.
+\item
+  Critically analyze models of intervention, especially in relation to
+  their cultural relevance and applicability and their promotion of
+  social justice.
+\item
+  Critically analyze models of evaluation, especially in relation to
+  their cultural relevance and applicability and their promotion of
+  social justice.
+\end{itemize}
+
+\subsubsection{Competency \#5: Advance human rights and social and
+economic
+justice.}\label{competency-5-advance-human-rights-and-social-and-economic-justice.}
+
+\begin{itemize}
+\tightlist
+\item
+  Advocate for and engage in practices that address disparities and
+  inequalities and advance human rights and social and economic justice.
+\end{itemize}
+
+\subsubsection{Competency \#6: Engage in research-informed practice and
+practice-informed
+research.}\label{competency-6-engage-in-research-informed-practice-and-practice-informed-research.}
+
+\begin{itemize}
+\tightlist
+\item
+  Use client and constituent knowledge to inform research and
+  evaluation.
+\item
+  Use my own practice experience to inform research and evaluation.
+\item
+  Use qualitative research evidence to inform practice.
+\item
+  Use quantitative research evidence to inform practice.
+\item
+  Apply research literature on social disparities when selecting and
+  evaluating services and policies.
+\end{itemize}
+
+\subsubsection{Competency \#10: Engage, assess, intervene, and evaluate
+with individuals, families, groups, organizations, and
+communities.}\label{competency-10-engage-assess-intervene-and-evaluate-with-individuals-families-groups-organizations-and-communities.}
+
+\begin{itemize}
+\tightlist
+\item
+  Collect, organize, and interpret client/constituent/system data
+  (e.g.~strengths, stressors, and limitations) to assess
+  client/constituent needs.
+\item
+  Critically analyze, monitor, and evaluate interventions.
+\end{itemize}
+
+\subsection{Learning Outcomes - On successful completion of the course
+you will be able
+to:}\label{learning-outcomes---on-successful-completion-of-the-course-you-will-be-able-to}
+
+\begin{itemize}
+\tightlist
+\item
+  Have a working knowledge of a variety of research methodologies,
+  epistemologies, and ethical considerations that accompany research
+  endeavors.
+\item
+  Be able to evaluate research with a critical eye on studies that can
+  perpetuate or counter oppression against vulnerable populations.
+\item
+  Be able to refine research design and articulate data collection and
+  analytic procedures that reflect practice assessment, implementation,
+  and outcome issues.
+\item
+  Be able to critically evaluate empirical evidence to promote
+  evidence-informed social work practice and policy.
+\end{itemize}
+
+\section{Instructional Methods}\label{instructional-methods}
+
+Education research shows that your learning is greatest when you are
+actively involved in making sense of new concepts (``constructing
+knowledge'') and when you do this in social settings. We will use this
+model throughout the course, so you can expect to
+
+\begin{itemize}
+\tightlist
+\item
+  be engaged in plenty of classroom activities to build on the readings
+  you have done for each class
+\item
+  work in small groups during class and for those groups to change on a
+  regular basis
+\item
+  ask your instructor for clarifications, rather than expecting
+  lectures.
+\end{itemize}
+
+Many of our courses will involve non-lecture material which seek to
+practically orient you to the concepts in the readings and to help you
+understand how the theoretical concepts covered in the readings relate
+to practice. If you find that you haven't managed to complete a reading
+before class, you will likely find that particular class frustrating,
+since we will build on and apply the readings each time (including
+trouble-shooting the issues you found most perplexing). I hope you find
+this an engaging and enjoyable approach to learning.
+
+\section{Course Policy}\label{course-policy}
+
+I will detail the policy for this course below. Basically, don't cheat
+and try to learn stuff. Don't be that person.
+
+\subsection{Classroom Norms}\label{classroom-norms}
+
+All conduct in the classroom will be professional with an emphasis on
+maintaining an environment that is mutually respectful and that supports
+the educational process. These norms include, but are not limited to:
+
+\begin{itemize}
+\tightlist
+\item
+  Start and end on time
+\item
+  Come to class prepared
+\item
+  Participate actively in discussion
+\item
+  Show one another courtesy, including when we disagree.
+\end{itemize}
+
+\subsection{Confidentiality}\label{confidentiality}
+
+Discussion of case material may occur in class. All classroom
+discussions about case material or an individual participant's personal
+experiences are considered confidential and may not be discussed or
+otherwise shared outside the classroom.
+
+\subsection{Grading Policy (See Table 1 for the Specific Grading
+Scale)}\label{grading-policy-see-table-1-for-the-specific-grading-scale}
+
+\begin{itemize}
+\item
+  \textbf{10\%} of your grade will be based on your participation in a
+  post test assessing your knowledge at end of this quarter. This test
+  will be graded on a credit/no-credit basis.
+\item
+  \textbf{30\%} of your grade will be determined by a series of in-class
+  practical exercises which will help apply the knowledge you've
+  gathered in lecture during a given week. These exercises will be
+  oriented around group work, but will all result in individual grades.
+\item
+  \textbf{30\%} of your grade will be determined by two more extensive
+  practical exercises which will involve the assessment of child welfare
+  case data.
+\item
+  \textbf{20\%} of your grade will be determined by an ``evidence-based
+  court report'' that you will complete based on data, assessment tools,
+  and other information provided by me.
+\item
+  \textbf{10\%} of your grade will be determined by your attendance and
+  participation in class. Generally, ask questions and answer them.
+\end{itemize}
+
+\subsection{Textual Description of Letter
+Grades}\label{textual-description-of-letter-grades}
+
+\begin{itemize}
+\tightlist
+\item
+  A/A- Mastery of subject content, demonstration of critical analysis,
+  creativity and/or complexity in completion of the assignment. The
+  difference between an A and an A- is based on the degree to which
+  these competencies are demonstrated.
+\item
+  B+ Mastery of subject content beyond expected competency, but lacking
+  in additional critical analysis, creativity, or complexity in the
+  completion of the assignment.
+\item
+  B Mastery of subject content at level of expected competency; meets
+  course expectations.
+\item
+  B- Less than adequate competency, but demonstrates student learning
+  and potential for mastery of subject content.
+\item
+  C-/C+ Demonstrates a minimal understanding of subject content.
+  Significant areas need improvement to meet course expectations.
+\item
+  D/E Failure to demonstrate minimal understanding of subject content.
+\end{itemize}
+
+\subsection{Bibliography and Citation
+Requirements}\label{bibliography-and-citation-requirements}
+
+When required, all citations must follow the APA Publication Manual (6th
+edition), since it is the standard referencing system for Social Work.
+It may be different from other systems you have used, so follow the
+Manual's citation guidelines carefully. This is an opportunity to
+demonstrate your attention to detail.
+
+\subsection{Assignment Deadlines and
+Extensions}\label{assignment-deadlines-and-extensions}
+
+In this class, you are expected to conduct yourselves as professional,
+courteous, and well-organized individuals -- this is what any
+organization will expect of you when you complete your degrees. Acting
+in this way helps give UW graduates a reputation as excellent and
+reliable colleagues, and in turn it means that your degree is worth more
+in a competitive marketplace. One of the most important ways you will
+demonstrate these behaviors in class is by ensuring that your work is
+ALWAYS ON TIME.
+
+Assignments must be submitted by the set deadlines and will typically be
+returned within 5 business days. It is essential that you plan ahead for
+all eventualities to ensure that none of your work is late. Check the
+session-by-session schedule at the end of this syllabus to see when
+assignments. Briefings about each assignment will occur during a
+preceding class. This enables you to plan now. Block out time in your
+calendar now so that you know exactly when you will be working on
+assignments for this course. Make sure you give yourself extra time just
+in case you run into difficulty with an assignment, have a computer
+problem, or feel unwell.
+
+Late assignments are not accepted without prior discussion and approval.
+When accepted, late assignments (even if same day) receive an automatic
+10\% grade reduction, increasing 10\% per day late. Retakes or ``make up
+work'' for failing grades are not offered.
+
+\subsection{Student Responsibilities for
+Learning}\label{student-responsibilities-for-learning}
+
+You can expect to devote an average of two hours outside of class to the
+subject matter (readings and preparation, as well as substantive
+assignments and participation exercises) for every hour in class. As
+this is a three-credit class, you can reasonably expect an average of 6
+hours of homework each week. I have tried to ensure that the workload is
+evenly distributed throughout the course, but if you find you have less
+than the normal amount of work one week, I suggest you read ahead for
+future classes. Please refer to other course policies on attendance,
+participation, missed classes, and assignment deadlines earlier in this
+syllabus.
+
+\begin{table}[]
+\centering
+\caption{Grading Scale}
+\label{my-label}
+\begin{tabular}{lll}
+Numeric Grade-Point Equivilant & Letter Grade & Points \\
+4.0                           & A            & 100    \\
+4.0                           & A            & 99     \\
+3.9                           & A            & 98     \\
+3.9                           & A            & 97     \\
+3.8                           & A-           & 96     \\
+3.8                           & A-           & 95     \\
+3.7                           & A-           & 94     \\
+3.7                           & A-           & 93     \\
+3.6                           & A-           & 92     \\
+3.6                           & A-           & 91     \\
+3.5                           & A-           & 90     \\
+3.5                           & A-           & 89     \\
+3.4                           & B+           & 88     \\
+3.3                           & B+           & 87     \\
+3.3                           & B+           & 86     \\
+3.2                           & B+           & 85     \\
+3.1                           & B+           & 84     \\
+3.0                           & B            & 83     \\
+2.9                           & B            & 82     \\
+2.8                           & B-           & 81     \\
+2.7                           & B-           & 80     \\
+2.6                           & B-           & 79     \\
+2.5                           & B-           & 78     \\
+2.4                           & C+           & 77     \\
+2.3                           & C+           & 76     \\
+2.2                           & C+           & 75     \\
+2.1                           & C+           & 74     \\
+2.0                           & C            & 73     \\
+1.9                           & C            & 72     \\
+1.8                           & C            & 71     \\
+1.7                           & C            & 70     \\
+1.6-0.0                       & F            & 69     \\
+\\
+\textit{2.7 is lowest passing grade for a required course}
+\end{tabular}
+\end{table}
+
+\subsection{Attendance Policy}\label{attendance-policy}
+
+\begin{quote}
+\emph{Showing up is 80 percent of life} -- Woody Allen
+\end{quote}
+
+Students should be weary of skipping class. Attendance at all class
+sessions is expected. Missing a class session or coming late or leaving
+early without having talked to the instructor will detract from the
+participation grade. If you are going to miss all or part of a class due
+to illness or another unavoidable commitment I expect you to call and
+leave a message on my phone or e-mail me. Students who may need
+accommodations for disability-related absences should discuss these
+arrangements ahead of time with the instructor. More information about
+disability-related absences at:
+\url{http://depts.washington.edu/uwdrs/accommodations/disability-related-absence/}
+
+\subsection{E-mail Policy}\label{e-mail-policy}
+
+I check my email regularly, which is the best way to reach me. You
+should note the alias (``+505'') that I am asking you to use for this
+quarter at the top of the syllabus. Adding this to my email will help me
+filter your emails amongst the 100-200 messages I receive every day. You
+can email me at any time, but you may not receive a response outside
+regular business hours. Generally, emails received before 3 p.m. will
+receive a response before 5 p.m., and emails received after 3 p.m. will
+receive a response on the following business day. Business days are
+Monday--Friday, except for holidays.
+
+\subsection{Academic Dishonesty
+Policy}\label{academic-dishonesty-policy}
+
+Don't cheat. Don't be that person. Yes, you. You know exactly what I'm
+talking about too.
+
+\section{Academic Resources}\label{academic-resources}
+
+My goal is to create a learning environment in which you can be
+successful. I will work hard to create and improve the learning
+environment throughout the quarter based on my own observations of the
+course and your feedback on what would help you learn more. In return, I
+ask and encourage you to make the most of this learning opportunity.
+Please take advantage of the academic support services available to you
+at the university. Even if you have had excellent study skills in the
+past, it is easy to slip into suboptimal habits and these services can
+help you excel in your studies.
+
+\subsection{\texorpdfstring{SSW Librarian - Angela Lee,
+\href{mailto:leea@uw.edu}{\nolinkurl{leea@uw.edu}},
+685-2180}{SSW Librarian - Angela Lee, leea@uw.edu, 685-2180}}\label{ssw-librarian---angela-lee-leeauw.edu-685-2180}
+
+\subsection{\texorpdfstring{SSW Writing Tutors -
+\url{http://socialwork.uw.edu/students/services/writing-tutors}}{SSW Writing Tutors - http://socialwork.uw.edu/students/services/writing-tutors}}\label{ssw-writing-tutors---httpsocialwork.uw.edustudentsserviceswriting-tutors}
+
+\subsection{Support for Students with
+Disabilities}\label{support-for-students-with-disabilities}
+
+At the SSW we are committed to ensuring access to classes, course
+material, and learning opportunities for students with disabilities.
+Your experience in this class is important to us, and it is the policy
+and practice of the University of Washington to create inclusive and
+accessible learning environments consistent with federal and state law.
+If you experience barriers based on a disability or temporary health
+condition, please seek a meeting with DRS to discuss and address them.
+If you have already established accommodations with DRS, please
+communicate your approved accommodations to your instructor at your
+earliest convenience so we can discuss your needs in this course.
+Disability Resources for Students (DRS) offers resources and coordinates
+reasonable accommodations for students with disabilities and/or
+temporary health conditions. Reasonable accommodations are established
+through an interactive process between you, your instructor(s) and DRS.
+If you have not yet established services through DRS, but have a
+temporary health condition or permanent disability that requires
+accommodations (this can include but not limited to; mental health,
+attention-related, learning, vision, hearing, physical or health
+impacts), you are welcome to contact DRS at 206-543-8924 or
+\href{mailto:uwdrs@uw.edu}{\nolinkurl{uwdrs@uw.edu}} or
+disability.uw.edu
+
+\subsection{Self-care / Counseling}\label{self-care-counseling}
+
+It is assumed that participants in the class may have had their own
+lives or the lives of individuals they know touched in some way by
+trauma. Class discussions, presentations, readings or other classroom
+events may trigger strong emotions. Students are encouraged to engage in
+self-care, which may include leaving the classroom, without explanation,
+at any time, as needed. Students are welcome to discuss personal
+reactions in class, but are in no way required or expected to do so.
+Students are also encouraged to speak with the instructor at non-class
+times about any such reactions. Free support resources are also
+available at the Student Counseling Center.
+
+\subsection{Counseling Resources}\label{counseling-resources}
+
+The UW Counseling Center offers free and confidential short-term,
+problem focused counseling to UW Students who may feel overwhelmed by
+the responsibilities of school, work, family and relationships.
+Counselors are available to help students cope with stresses and
+personal issues that may interfere with their ability to perform in
+school. To schedule an appointment, please call 206-543-1240 or stop by
+401 Schmitz Hall. More information at:
+\url{http://www.washington.edu/counseling/} If you're looking for
+additional low-cost resources, we've posted a list at the bottom of this
+page: \url{http://socialwork.uw.edu/node/4339}
+
+\newpage
+
+\section{Class Schedule}\label{class-schedule}
+
+Students must read the following before Tuesday's class session.
+Important: class readings are subject to change, contingent on
+mitigating circumstances and the progress we make as a class. Students
+are encouraged to attend lectures and check the course website for
+updates.
+
+\subsection{Week 01, 03/30 - 04/03: Connecting Needs to Treatment
+Planning}\label{week-01-0330---0403-connecting-needs-to-treatment-planning}
+
+\begin{itemize}
+\tightlist
+\item
+  Clearinghouse PE (Due by Midnight, Next Day of Class)
+\end{itemize}
+
+\subsection{Week 02, 04/06 - 04/10: Assessment of Individual Change -
+Descriptive Analysis Pt.
+1}\label{week-02-0406---0410-assessment-of-individual-change---descriptive-analysis-pt.-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Begin Reading \emph{de Vries, Hartogs, \& Morey (2015)}, provided on
+  Canvas
+\end{itemize}
+
+\subsection{Week 03, 04/13 - 04/17: Assessment of Individual Change -
+Descriptive Analysis Pt.
+2}\label{week-03-0413---0417-assessment-of-individual-change---descriptive-analysis-pt.-2}
+
+\begin{itemize}
+\tightlist
+\item
+  Continue Reading \emph{de Vries, Hartogs, \& Morey (2015)}, provided
+  on Canvas
+\item
+  CSDE Terminal Server Activity (Not Graded) (Due by End of Class)
+\item
+  Begin Data Wrangling PE (Due by Midnight, Next Day of Class)
+\end{itemize}
+
+\subsection{Week 04, 04/20 - 04/24: Assessment of Individual Change -
+Average \& Trend
+Change}\label{week-04-0420---0424-assessment-of-individual-change---average-trend-change}
+
+\begin{itemize}
+\tightlist
+\item
+  Continue Reading \emph{de Vries, Hartogs, \& Morey (2015)}, provided
+  on Canvas
+\item
+  Begin Average Change PE (Due by Midnight, Next Day of Class)
+\item
+  Begin Trend Change PE (Due by Midnight, Next Day of Class)
+\end{itemize}
+
+\subsection{Week 05, 04/27 - 05/01: Assessing Change in Visitation
+Reports -
+Measurement}\label{week-05-0427---0501-assessing-change-in-visitation-reports---measurement}
+
+\begin{itemize}
+\tightlist
+\item
+  Read \emph{Charyl E. Gerring, Susan P. Kemp, and Maureen O. Marcenko},
+  provided on Canvas
+\item
+  Read \emph{In re T.H., 139 Wn. App. \& In re Siegfried, 42 Wn. App.},
+  provided on Canvas
+\end{itemize}
+
+\subsection{Week 06, 05/04 - 05/08: Assessing Change in Visitation
+Reports -
+Assessment}\label{week-06-0504---0508-assessing-change-in-visitation-reports---assessment}
+
+\begin{itemize}
+\tightlist
+\item
+  Begin Assessment of Progress with Visitation Data PE (Due by Midnight,
+  Next Day of Class)
+\end{itemize}
+
+\subsection{Week 07, 05/11 - 05/15: Assessing Change in Urinalysis
+Reports -
+Measurement}\label{week-07-0511---0515-assessing-change-in-urinalysis-reports---measurement}
+
+\begin{itemize}
+\tightlist
+\item
+  Read, \emph{Keary, Christopher J., et al.}, provided on Canvas
+\item
+  Read, \emph{Brahm, Nancy C., et al.}, provided on Canvas
+\end{itemize}
+
+\subsection{Week 08, 05/18 - 05/22: Assessing Change in Urinalysis
+Reports -
+Assessment}\label{week-08-0518---0522-assessing-change-in-urinalysis-reports---assessment}
+
+\begin{itemize}
+\tightlist
+\item
+  Begin Assessment of Progress with Urinalysis Data PE (Due by Midnight,
+  Next Day of Class)
+\end{itemize}
+
+\subsection{Week 09, 05/25 - 05/29: Return Home
+Decisions}\label{week-09-0525---0529-return-home-decisions}
+
+\begin{itemize}
+\tightlist
+\item
+  Read, \emph{Bellamy (2008)}, provided on Canvas
+\item
+  Read, \emph{Barth, et al. (2008)}, provided on Canvas
+\item
+  Begin Evidence Based Court Report (Due Exam Week as Noted on Canvas)
+\end{itemize}
+
+\subsection{\texorpdfstring{Week 10, 06/01 - 06/05: Relapse, Theories of
+Change, Permanency Planning, Foster Family Notification of Permanency
+Decisions, and Other ``Parking Lot
+Issues''}{Week 10, 06/01 - 06/05: Relapse, Theories of Change, Permanency Planning, Foster Family Notification of Permanency Decisions, and Other Parking Lot Issues}}\label{week-10-0601---0605-relapse-theories-of-change-permanency-planning-foster-family-notification-of-permanency-decisions-and-other-parking-lot-issues}
+
+\subsection{Week 11, 06/08 - 06/12: Exam Week - No
+Class}\label{week-11-0608---0612-exam-week---no-class}
+
+\begin{itemize}
+\tightlist
+\item
+  Complete Post-Test (Available On Canvas)
+\end{itemize}
+
+
+
+
+\end{document}
+
+\makeatletter
+\def\@maketitle{%
+  \newpage
+%  \null
+%  \vskip 2em%
+%  \begin{center}%
+  \let \footnote \thanks
+    {\fontsize{18}{20}\selectfont\raggedright  \setlength{\parindent}{0pt} \@title \par}%
+}
+%\fi
+\makeatother

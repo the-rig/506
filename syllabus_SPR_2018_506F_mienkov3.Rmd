@@ -1,0 +1,314 @@
+---
+output: 
+  pdf_document:
+    keep_tex: true
+    fig_caption: yes
+    latex_engine: pdflatex
+    template: syllabus.tex
+geometry: margin=1in
+
+title: "SOC W 506 F: Social Welfare Research & Evaluation (Advanced Analytical Case Management)"
+author: Joe Mienko
+date: "Spring 2018"
+
+email: "mienko+505@uw.edu"
+web: "Canvas"
+officehours: "Thursdays, 1-3 (or by appointment)"
+office: "18th Floor, UW Tower"
+classroom: "SWS 036"
+classhours: "F 830-1120"
+
+fontfamily: mathpazo
+fontsize: 11pt
+header-includes:
+   - \linespread{1.05}
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+mon <- as.Date("2018-03-30")
+# fri <- as.Date("2016-01-08")
+
+advdate <- function(obj, adv) {
+ tmon <- obj + 7*(adv-1)
+ tfri <- obj + 4 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ return(tmp)
+}
+
+# library(RefManageR)
+# # library(knitcitations)
+# # library(rcrossref)
+# bib <- ReadBib("master.bib")
+# myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+
+```
+
+# Course Description
+
+This course is an overview of research process/methods in social work, with focus on consuming and performing practice-related research and evaluating one's own practice. Emphasis on critical understanding of empirical literature, development of useful and appropriate questions about social work practice, and strategies and techniques for doing research and applying findings to practice.
+
+This is a pilot course which has been modified from the traditional research methods sequence in two important ways: 1. The course is designed to be focused on the application of analytical tools to direct social work practice, and 2. The course is strongly oriented toward child welfare social work. 
+
+Given the pilot nature of the course, the specific schedule and assignments outlined in this syllabus are subject to change. 
+
+This course is designed to be taken as the second-half of a two-quarter sequence beginning with SOC W 505 (Analytical Case Management).
+
+# Course Objectives
+
+1.	To introduce students to a variety of research methodologies, epistemologies, and ethical considerations that accompany research endeavors. This will include exposure to qualitative and quantitative methodologies and human participant considerations.
+2.	To learn to critically assess social science research from ethical, multicultural, and social justice perspectives.
+3.	To gain a balanced and informed perspective about varying types of research methodologies and epistemological traditions.
+4.	To identify the potential limitations of research methods and examine critically conclusions drawn from data in the practice setting and from the research literature.
+5.	To gain experience in the direct application of research skills to define, measure, and conceptualize problems of relevance to social work practice.
+
+# Required Readings
+
+To be provided in hard copy or digital form as required. 
+
+# Targeted Competencies and Related Practice Behaviors
+
+This course targets the following Council on Social Work Accreditation (CSWE) competencies and related practice behaviors:
+
+## Competencies
+###Competency #2: Apply social work ethical principles to guide professional practice.
+* Make ethical decisions, in practice and in research, by critically applying the ethical standards of the NASW Code of Ethics and other relevant codes of ethics.
+
+### Competency #3: Apply critical thinking to inform and communicate professional judgments.
+
+* Use critical thinking to distinguish, evaluate, and integrate multiple sources of knowledge, including research-based knowledge, practice wisdom, and client/constituent experience.
+* Critically analyze models of assessment, especially in relation to their cultural relevance and applicability and their promotion of social justice.
+* Critically analyze models of prevention, especially in relation to their cultural relevance and applicability and their promotion of social justice.
+* Critically analyze models of intervention, especially in relation to their cultural relevance and applicability and their promotion of social justice.
+* Critically analyze models of evaluation, especially in relation to their cultural relevance and applicability and their promotion of social justice.
+
+### Competency #5: Advance human rights and social and economic justice.
+
+* Advocate for and engage in practices that address disparities and inequalities and advance human rights and social and economic justice.
+
+### Competency #6: Engage in research-informed practice and practice-informed research.
+
+* Use client and constituent knowledge to inform research and evaluation.
+* Use my own practice experience to inform research and evaluation.
+* Use qualitative research evidence to inform practice.
+* Use quantitative research evidence to inform practice.
+* Apply research literature on social disparities when selecting and evaluating services and policies.
+
+### Competency #10: Engage, assess, intervene, and evaluate with individuals, families, groups, organizations, and communities.
+
+* Collect, organize, and interpret client/constituent/system data (e.g. strengths, stressors, and limitations) to assess client/constituent needs.
+* Critically analyze, monitor, and evaluate interventions.
+
+## Learning Outcomes - On successful completion of the course you will be able to:
+
+* Have a working knowledge of a variety of research methodologies, epistemologies, and ethical considerations that accompany research endeavors.
+* Be able to evaluate research with a critical eye on studies that can perpetuate or counter oppression against vulnerable populations.
+* Be able to refine research design and articulate data collection and analytic procedures that reflect practice assessment, implementation, and outcome issues.
+* Be able to critically evaluate empirical evidence to promote evidence-informed social work practice and policy.
+
+# Instructional Methods
+
+Education research shows that your learning is greatest when you are actively involved in making sense of new concepts ("constructing knowledge") and when you do this in social settings. We will use this model throughout the course, so you can expect to
+
+* be engaged in plenty of classroom activities to build on the readings you have done for each class
+* work in small groups during class and for those groups to change on a regular basis
+* ask your instructor for clarifications, rather than expecting lectures.
+
+Many of our courses will involve non-lecture material which seek to practically orient you to the concepts in the readings and to help you understand how the theoretical concepts covered in the readings relate to practice. If you find that you haven’t managed to complete a reading before class, you will likely find that particular class frustrating, since we will build on and apply the readings each time (including trouble-shooting the issues you found most perplexing). I hope you find this an engaging and enjoyable approach to learning.
+
+# Course Policy
+
+I will detail the policy for this course below. Basically, don't cheat and try to learn stuff. Don't be that person.
+
+## Classroom Norms
+
+All conduct in the classroom will be professional with an emphasis on maintaining an environment that is mutually respectful and that supports the educational process. These norms include, but are not limited to:
+
+* Start and end on time
+* Come to class prepared
+* Participate actively in discussion
+* Show one another courtesy, including when we disagree.
+
+## Confidentiality
+
+Discussion of case material may occur in class. All classroom discussions about case material or an individual participant’s personal experiences are considered confidential and may not be discussed or otherwise shared outside the classroom.
+
+## Grading Policy (See Table 1 for the Specific Grading Scale)
+
+- **10%** of your grade will be based on your participation in a post test assessing your knowledge at end of this quarter. This test will be graded on a credit/no-credit basis. 
+
+- **30%** of your grade will be determined by a series of in-class practical exercises which will help apply the knowledge you've gathered in lecture during a given week. These exercises will be oriented around group work, but will all result in individual grades. 
+
+- **30%** of your grade will be determined by two more extensive practical exercises which will involve the assessment of child welfare case data. 
+
+- **20%** of your grade will be determined by an "evidence-based court report" that you will complete based on data, assessment tools, and other information provided by me. 
+
+- **10%** of your grade will be determined by your attendance and participation in class. Generally, ask questions and answer them.
+
+## Textual Description of Letter Grades
+- A/A- Mastery of subject content, demonstration of critical analysis, creativity and/or complexity in completion of the assignment. The difference between an A and an A- is based on the degree to which these competencies are demonstrated.
+- B+ Mastery of subject content beyond expected competency, but lacking in additional critical analysis, creativity, or complexity in the completion of the assignment.
+- B Mastery of subject content at level of expected competency; meets course expectations.
+- B- Less than adequate competency, but demonstrates student learning and potential for mastery of subject content.
+- C-/C+ Demonstrates a minimal understanding of subject content. Significant areas need improvement to meet course expectations.
+- D/E Failure to demonstrate minimal understanding of subject content.
+
+
+## Bibliography and Citation Requirements
+
+When required, all citations must follow the APA Publication Manual (6th edition), since it is the standard referencing system for Social Work. It may be different from other systems you have used, so follow the Manual’s citation guidelines carefully. This is an opportunity to demonstrate your attention to detail.
+
+## Assignment Deadlines and Extensions
+
+In this class, you are expected to conduct yourselves as professional, courteous, and well-organized individuals – this is what any organization will expect of you when you complete your degrees. Acting in this way helps give UW graduates a reputation as excellent and reliable colleagues, and in turn it means that your degree is worth more in a competitive marketplace. One of the most important ways you will demonstrate these behaviors in class is by ensuring that your work is ALWAYS ON TIME.
+
+Assignments must be submitted by the set deadlines and will typically be returned within 5 business days. It is essential that you plan ahead for all eventualities to ensure that none of your work is late. Check the session-by-session schedule at the end of this syllabus to see when assignments. Briefings about each assignment will occur during a preceding class. This enables you to plan now. Block out time in your calendar now so that you know exactly when you will be working on assignments for this course. Make sure you give yourself extra time just in case you run into difficulty with an assignment, have a computer problem, or feel unwell.
+
+Late assignments are not accepted without prior discussion and approval. When accepted, late assignments (even if same day) receive an automatic 10% grade reduction, increasing 10% per day late. Retakes or "make up work" for failing grades are not offered.
+
+## Student Responsibilities for Learning
+
+You can expect to devote an average of two hours outside of class to the subject matter (readings and preparation, as well as substantive assignments and participation exercises) for every hour in class. As this is a three-credit class, you can reasonably expect an average of 6 hours of homework each week. I have tried to ensure that the workload is evenly distributed throughout the course, but if you find you have less than the normal amount of work one week, I suggest you read ahead for future classes.
+Please refer to other course policies on attendance, participation, missed classes, and assignment deadlines earlier in this syllabus.
+
+
+\begin{table}[]
+\centering
+\caption{Grading Scale}
+\label{my-label}
+\begin{tabular}{lll}
+Numeric Grade-Point Equivilant & Letter Grade & Points \\
+4.0                           & A            & 100    \\
+4.0                           & A            & 99     \\
+3.9                           & A            & 98     \\
+3.9                           & A            & 97     \\
+3.8                           & A-           & 96     \\
+3.8                           & A-           & 95     \\
+3.7                           & A-           & 94     \\
+3.7                           & A-           & 93     \\
+3.6                           & A-           & 92     \\
+3.6                           & A-           & 91     \\
+3.5                           & A-           & 90     \\
+3.5                           & A-           & 89     \\
+3.4                           & B+           & 88     \\
+3.3                           & B+           & 87     \\
+3.3                           & B+           & 86     \\
+3.2                           & B+           & 85     \\
+3.1                           & B+           & 84     \\
+3.0                           & B            & 83     \\
+2.9                           & B            & 82     \\
+2.8                           & B-           & 81     \\
+2.7                           & B-           & 80     \\
+2.6                           & B-           & 79     \\
+2.5                           & B-           & 78     \\
+2.4                           & C+           & 77     \\
+2.3                           & C+           & 76     \\
+2.2                           & C+           & 75     \\
+2.1                           & C+           & 74     \\
+2.0                           & C            & 73     \\
+1.9                           & C            & 72     \\
+1.8                           & C            & 71     \\
+1.7                           & C            & 70     \\
+1.6-0.0                       & F            & 69     \\
+\\
+\textit{2.7 is lowest passing grade for a required course}
+\end{tabular}
+\end{table}
+
+## Attendance Policy
+
+> *Showing up is 80 percent of life* -- Woody Allen
+
+Students should be weary of skipping class. Attendance at all class sessions is expected. Missing a class session or coming late or leaving early without having talked to the instructor will detract from the participation grade. If you are going to miss all or part of a class due to illness or another unavoidable commitment I expect you to call and leave a message on my phone or e-mail me. Students who may need accommodations for disability-related absences should discuss these arrangements ahead of time with the instructor. More information about disability-related absences at: http://depts.washington.edu/uwdrs/accommodations/disability-related-absence/
+
+## E-mail Policy
+
+I check my email regularly, which is the best way to reach me. You should note the alias ("+505") that I am asking you to use for this quarter at the top of the syllabus. Adding this to my email will help me filter your emails amongst the 100-200 messages I receive every day. You can email me at any time, but you may not receive a response outside regular business hours. Generally, emails received before 3 p.m. will receive a response before 5 p.m., and emails received after 3 p.m. will receive a response on the following business day. Business days are Monday–Friday, except for holidays.
+
+## Academic Dishonesty Policy
+
+Don’t cheat. Don’t be that person. Yes, you. You know exactly what I’m talking about too.
+
+# Academic Resources
+
+My goal is to create a learning environment in which you can be successful. I will work hard to create and improve the learning environment throughout the quarter based on my own observations of the course and your feedback on what would help you learn more. In return, I ask and encourage you to make the most of this learning opportunity. Please take advantage of the academic support services available to you at the university. Even if you have had excellent study skills in the past, it is easy to slip into suboptimal habits and these services can help you excel in your studies.
+
+## SSW Librarian - Angela Lee, leea@uw.edu, 685-2180
+
+## SSW Writing Tutors - [http://socialwork.uw.edu/students/services/writing-tutors](http://socialwork.uw.edu/students/services/writing-tutors)
+
+## Support for Students with Disabilities
+
+At the SSW we are committed to ensuring access to classes, course material, and learning opportunities for students with disabilities. Your experience in this class is important to us, and it is the policy and practice of the University of Washington to create inclusive and accessible learning environments consistent with federal and state law. If you experience barriers based on a disability or temporary health condition, please seek a meeting with DRS to discuss and address them. If you have already established accommodations with DRS, please communicate your approved accommodations to your instructor at your earliest convenience so we can discuss your needs in this course.
+Disability Resources for Students (DRS) offers resources and coordinates reasonable accommodations for students with disabilities and/or temporary health conditions. Reasonable accommodations are established through an interactive process between you, your instructor(s) and DRS. If you have not yet established services through DRS, but have a temporary health condition or permanent disability that requires accommodations (this can include but not limited to; mental health, attention-related, learning, vision, hearing, physical or health impacts), you are welcome to contact DRS at 206-543-8924 or uwdrs@uw.edu or disability.uw.edu
+
+## Self-care / Counseling
+
+It is assumed that participants in the class may have had their own lives or the lives of individuals they know touched in some way by trauma. Class discussions, presentations, readings or other classroom events may trigger strong emotions. Students are encouraged to engage in self-care, which may include leaving the classroom, without explanation, at any time, as needed. Students are welcome to discuss personal reactions in class, but are in no way required or expected to do so. Students are also encouraged to speak with the instructor at non-class times about any such reactions. Free support resources are also available at the Student Counseling Center.
+
+## Counseling Resources
+
+The UW Counseling Center offers free and confidential short-term, problem focused counseling to UW Students who may feel overwhelmed by the responsibilities of school, work, family and relationships. Counselors are available to help students cope with stresses and personal issues that may interfere with their ability to perform in school. To schedule an appointment, please call 206-543-1240 or stop by 401 Schmitz Hall. More information at: http://www.washington.edu/counseling/
+If you’re looking for additional low-cost resources, we’ve posted a list at the bottom of this page: http://socialwork.uw.edu/node/4339
+
+
+\newpage
+
+# Class Schedule
+
+Students must read the following before Tuesday's class session.  Important: class readings are subject to change, contingent on mitigating circumstances and the progress we make as a class.  Students are encouraged to attend lectures and check the course website for updates. 
+
+## `r advdate(mon, 1)`: Connecting Needs to Treatment Planning
+
+  - Clearinghouse PE (Due by Midnight, Next Day of Class)
+
+## `r advdate(mon, 2)`: Assessment of Individual Change - Descriptive Analysis Pt. 1
+
+  - Begin Reading *de Vries, Hartogs, & Morey (2015)*, provided on Canvas 
+
+##  `r advdate(mon, 3)`: Assessment of Individual Change - Descriptive Analysis Pt. 2
+
+  - Continue Reading *de Vries, Hartogs, & Morey (2015)*, provided on Canvas 
+  - CSDE Terminal Server Activity (Not Graded) (Due by End of Class)
+  - Begin Data Wrangling PE (Due by Midnight, Next Day of Class)
+
+##  `r advdate(mon, 4)`: Assessment of Individual Change - Average & Trend Change
+
+  - Continue Reading *de Vries, Hartogs, & Morey (2015)*, provided on Canvas 
+  - Begin Average Change PE (Due by Midnight, Next Day of Class)
+  - Begin Trend Change PE (Due by Midnight, Next Day of Class)
+  
+##  `r advdate(mon, 5)`: Assessing Change in Visitation Reports - Measurement
+
+  - Read *Charyl E. Gerring, Susan P. Kemp, and Maureen O. Marcenko*, provided on Canvas
+  - Read *In re T.H., 139 Wn. App. & In re Siegfried, 42 Wn. App.*, provided on Canvas
+
+##  `r advdate(mon, 6)`: Assessing Change in Visitation Reports - Assessment
+
+  - Begin Assessment of Progress with Visitation Data PE (Due by Midnight, Next Day of Class)
+  
+##  `r advdate(mon, 7)`: Assessing Change in Urinalysis Reports - Measurement
+
+  - Read, *Keary, Christopher J., et al.*, provided on Canvas
+  - Read, *Brahm, Nancy C., et al.*, provided on Canvas
+
+##  `r advdate(mon, 8)`: Assessing Change in Urinalysis Reports - Assessment
+
+  - Begin Assessment of Progress with Urinalysis Data PE (Due by Midnight, Next Day of Class)
+
+##  `r advdate(mon, 9)`: Return Home Decisions
+
+  - Read, *Bellamy (2008)*, provided on Canvas
+  - Read, *Barth, et al. (2008)*, provided on Canvas
+  - Begin Evidence Based Court Report (Due Exam Week as Noted on Canvas)
+  
+##  `r advdate(mon, 10)`: Relapse, Theories of Change, Permanency Planning, Foster Family Notification of Permanency Decisions, and Other "Parking Lot Issues"
+
+##  `r advdate(mon, 11)`: Exam Week - No Class
+
+  - Complete Post-Test (Available On Canvas)
