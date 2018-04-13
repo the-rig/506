@@ -1,0 +1,24 @@
+---
+title: "Hello Social WorkeR - PE2"
+author: "Joe Mienko"
+date: "4/13/2018"
+output: word_document
+---
+
+## I am a social worker
+
+-- I believe that knowledge should be **free**.
+
+-- I believe that social workers are **powerful** and empowering, and that through this empowerment, we can bring about progressive social change. 
+
+-- I believe that part of the power of social work comes from our **flexibility**.
+
+## I am a social worker who uses R 
+
+-- I use R because it is **free**. It is **free** for me as a student. It is **free** for me after I graduate. It is **free** to the organizations where I will work and it is **free** to the communities that I will serve. Since R is **free** to everyone, it helps make knowledge **free**.
+
+-- I use R because it is **powerful**. R can help me solve problems now as a practitioner, and continue to serve me if I want to grow as a professional researcher - it can solve problems that are small and problems that are big. 
+
+-- I use R because it is **flexible**. R is not limited to a specific set of statistical methods or a particular academic discipline. R can help me analyze data for an individual client or data describing the health of the world, and help me communicate those analyses to my colleagues and others in the world. 
+
+
